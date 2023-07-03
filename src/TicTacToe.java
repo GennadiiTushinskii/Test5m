@@ -25,7 +25,7 @@ public class TicTacToe {
 
         //proverim zanyata li kletka
         if (!field[x][y].equals("-")){
-            return "Cell " + (x+1) + ", " + (y+1) + " is already occupied";
+            return "Cell " + (x+10) + ", " + (y+10) + " is already occupied";
         }
         if (field[x][y].equals("-")) {
             field[x][y] = player;
